@@ -1,0 +1,193 @@
+{
+  "demo_matches": [
+    {
+      "id": 1234567,
+      "date": "2023-11-05",
+      "league": "Premier League",
+      "homeTeam": "Manchester United",
+      "awayTeam": "Manchester City",
+      "score": "0-3",
+      "status": "FT",
+      "statistics": {
+        "home": {
+          "Shots on Goal": 3,
+          "Total Shots": 7,
+          "Ball Possession": "40%",
+          "Corner Kicks": 7,
+          "Yellow Cards": 4,
+          "Red Cards": 0
+        },
+        "away": {
+          "Shots on Goal": 10,
+          "Total Shots": 21,
+          "Ball Possession": "60%",
+          "Corner Kicks": 12,
+          "Yellow Cards": 1,
+          "Red Cards": 0
+        }
+      },
+      "events": [
+        {
+          "time": 24,
+          "type": "Var",
+          "player": "Rodri",
+          "detail": "Penalty confirmed"
+        },
+        {
+          "time": 26,
+          "type": "Goal",
+          "player": "E. Haaland",
+          "detail": "Penalty"
+        },
+        {
+          "time": 26,
+          "type": "Card",
+          "player": "André Onana",
+          "detail": "Yellow Card"
+        },
+        {
+          "time": 49,
+          "type": "Goal",
+          "player": "E. Haaland",
+          "detail": "Normal Goal"
+        },
+        {
+          "time": 80,
+          "type": "Goal",
+          "player": "P. Foden",
+          "detail": "Normal Goal"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "startXI": [
+            {"player": "A. Onana", "pos": {"x": 1, "y": 1}},
+            {"player": "Diogo Dalot", "pos": {"x": 2, "y": 1}},
+            {"player": "H. Maguire", "pos": {"x": 2, "y": 2}},
+            {"player": "J. Evans", "pos": {"x": 2, "y": 3}},
+            {"player": "V. Lindelöf", "pos": {"x": 2, "y": 4}},
+            {"player": "C. Eriksen", "pos": {"x": 3, "y": 2}},
+            {"player": "S. Amrabat", "pos": {"x": 3, "y": 3}},
+            {"player": "Bruno Fernandes", "pos": {"x": 4, "y": 2}},
+            {"player": "S. McTominay", "pos": {"x": 4, "y": 3}},
+            {"player": "M. Rashford", "pos": {"x": 4, "y": 4}},
+            {"player": "R. Højlund", "pos": {"x": 5, "y": 3}}
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "startXI": [
+            {"player": "Ederson", "pos": {"x": 1, "y": 1}},
+            {"player": "K. Walker", "pos": {"x": 2, "y": 1}},
+            {"player": "Rúben Dias", "pos": {"x": 2, "y": 2}},
+            {"player": "J. Stones", "pos": {"x": 2, "y": 3}},
+            {"player": "J. Gvardiol", "pos": {"x": 2, "y": 4}},
+            {"player": "Rodri", "pos": {"x": 3, "y": 2}},
+            {"player": "Bernardo Silva", "pos": {"x": 3, "y": 3}},
+            {"player": "P. Foden", "pos": {"x": 4, "y": 2}},
+            {"player": "J. Álvarez", "pos": {"x": 4, "y": 3}},
+            {"player": "J. Grealish", "pos": {"x": 4, "y": 4}},
+            {"player": "E. Haaland", "pos": {"x": 5, "y": 3}}
+          ]
+        }
+      },
+      "ai_analysis": {
+        "rekomendacja": "2",
+        "pewnosc": 8,
+        "uzasadnienie": "Manchester City dominuje w posiadaniu piłki (60%) i ma znacznie więcej strzałów (21 vs 7). Haaland w świetnej formie z 2 golami. United ma problemy defensywne.",
+        "typ_zakladu": "podstawowy",
+        "kurs_sugerowany": "1.50+"
+      }
+    },
+    {
+      "id": 1234568,
+      "date": "2023-12-02",
+      "league": "La Liga",
+      "homeTeam": "Barcelona",
+      "awayTeam": "Real Madrid",
+      "score": "2-2",
+      "status": "FT",
+      "statistics": {
+        "home": {
+          "Shots on Goal": 8,
+          "Total Shots": 15,
+          "Ball Possession": "55%",
+          "Corner Kicks": 9,
+          "Yellow Cards": 3,
+          "Red Cards": 0
+        },
+        "away": {
+          "Shots on Goal": 6,
+          "Total Shots": 12,
+          "Ball Possession": "45%",
+          "Corner Kicks": 6,
+          "Yellow Cards": 2,
+          "Red Cards": 0
+        }
+      },
+      "events": [
+        {
+          "time": 15,
+          "type": "Goal",
+          "player": "R. Lewandowski",
+          "detail": "Normal Goal"
+        },
+        {
+          "time": 35,
+          "type": "Goal",
+          "player": "V. Jr.",
+          "detail": "Normal Goal"
+        },
+        {
+          "time": 65,
+          "type": "Goal",
+          "player": "F. Torres",
+          "detail": "Normal Goal"
+        },
+        {
+          "time": 78,
+          "type": "Goal",
+          "player": "J. Bellingham",
+          "detail": "Normal Goal"
+        }
+      ],
+      "ai_analysis": {
+        "rekomendacja": "X",
+        "pewnosc": 6,
+        "uzasadnienie": "Bardzo wyrównany mecz z podobnymi statystykami. Oba zespoły w dobrej formie. Remis jest prawdopodobny.",
+        "typ_zakladu": "podstawowy",
+        "kurs_sugerowany": "3.20+"
+      }
+    }
+  ],
+  "demo_features": {
+    "search": {
+      "leagues": ["Premier League", "La Liga"],
+      "years": [2022, 2023],
+      "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "teams": {
+        "Premier League": [
+          "Manchester United", "Manchester City", "Arsenal", "Chelsea",
+          "Liverpool", "Tottenham", "Newcastle", "Brighton"
+        ],
+        "La Liga": [
+          "Barcelona", "Real Madrid", "Atletico Madrid", "Sevilla",
+          "Villarreal", "Valencia", "Athletic Club", "Real Sociedad"
+        ]
+      }
+    },
+    "statistics": [
+      "Shots on Goal", "Total Shots", "Ball Possession", "Corner Kicks",
+      "Yellow Cards", "Red Cards", "Fouls", "Offsides", "Goalkeeper Saves"
+    ],
+    "events": [
+      "Goal", "Card", "subst", "Var"
+    ],
+    "ai_analysis": {
+      "recommendations": ["1", "X", "2"],
+      "confidence_levels": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+      "bet_types": ["podstawowy", "handicap", "over_under"]
+    }
+  }
+} 
